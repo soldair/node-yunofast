@@ -1,4 +1,3 @@
-
 [![Build Status](https://secure.travis-ci.org/soldair/node-yunofast.png)](http://travis-ci.org/soldair/node-yunofast)
 
 # yunofast
@@ -8,7 +7,7 @@ super light benchmarking tool designed to leave in long running server code.
 ## example
 
 ```js
-var bench = require('./bench.js')
+var bench = require('yunofast')
 
 var b = bench();
 
