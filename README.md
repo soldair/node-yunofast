@@ -46,6 +46,14 @@ bench.remove(key)
 
 ## report output
 
+```js
+{ test:
+   { count: 60,
+     avg: 0.05,
+     slidingAvg: 0.0682593545,
+     total: [ 3, 906278613 ] } }
+
+```
 
 ## woo hoo
 
