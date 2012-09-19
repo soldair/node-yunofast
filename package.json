@@ -1,0 +1,22 @@
+{
+  "name": "yunofast",
+  "version": "0.0.0",
+  "description": "super light benchmarking tool designed to leave in long running server code.",
+  "main": "bench.js",
+  "devDependencies":{
+    "tap":"*"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": "",
+  "keywords": [
+    "bench",
+    "speed",
+    "performance",
+    "measure",
+    "yuno"
+  ],
+  "author": "Ryan Day",
+  "license": "BSD"
+}
