@@ -14,6 +14,7 @@ test("test can benchmark",function(t){
       if(c < 60) fn();
       else {
         var report = b.report();
+        console.log(report);
         t.equals(report['test'].count,60,"should have measured 10 samples");
         t.ok(report['test'].avg > 0.01,'should have good avg');
         t.ok(report['test'].slidingAvg > 0.01,'should have good sliding avg');

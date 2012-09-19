@@ -2,10 +2,10 @@ module.exports = function() {
   return {
     marks:{},
     start:function(key){
-      this.mark(key,1);
+      this._mark(key,1);
     },
     end:function(key){
-      this.mark(key,0);
+      this._mark(key,0);
     },
     report:function(){
       var z = this;
