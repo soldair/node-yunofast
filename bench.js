@@ -7,6 +7,10 @@ module.exports = function() {
     end:function(key){
       this._mark(key,0);
     },
+    // alias for end
+    stop:function(key){ 
+      this._mark(key,0);
+    },
     report:function(){
       var z = this;
       var report = {};
@@ -32,10 +36,7 @@ module.exports = function() {
     remove:function(key){
       delete this.marks[key];     
     },
-    // alias for end
-    stop:function(key){ 
-      this.mark(key,0);
-    },
+
     _mark:function(key,on){
       if(!this.marks[key]) this.marks[key] = {start:false,total:[0,0],count:0,samples:[],cps:0};
       

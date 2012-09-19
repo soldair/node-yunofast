@@ -1,6 +1,6 @@
 {
   "name": "yunofast",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "super light benchmarking tool designed to leave in long running server code.",
   "main": "bench.js",
   "devDependencies":{
