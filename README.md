@@ -58,3 +58,4 @@ bench.remove(key)
 
 let me know if you have any issues or this is useful.
 
+![yunofast!](http://ryanday.org/yunofast.jpg)
